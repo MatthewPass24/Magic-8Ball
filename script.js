@@ -34,7 +34,7 @@ function shakeMagic8Ball(){
         case 3:
             answer = "Maybe"
             image = "later-image.jpg" //change this!!
-            color = "text-muted"
+            color = "text-warning"
             break;
         case 4:
             answer = "Do not count on it"
@@ -49,12 +49,12 @@ function shakeMagic8Ball(){
         case 6:
             answer = 'Outlook not so good'
             image = "later-image.jpg" //change this!!
-            color = "text-secondary"
+            color = "text-danger"
             break;
         case 7:
             answer = 'Signs point to yes'
             image = "later-image.jpg" //change this!!
-            color = "text-secondary"
+            color = "text-success"
             break; 
         default:
             break;    
@@ -62,7 +62,7 @@ function shakeMagic8Ball(){
 
 const responseText = document.getElementById('response-text');
 responseText.innerText = answer;
-responseText.classList = `display-4 ${color}`;
+responseText.classList = `display-5 ${color}`;
 document.getElementById('response-image').src = image;
 
 }
