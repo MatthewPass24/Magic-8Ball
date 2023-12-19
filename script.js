@@ -3,7 +3,7 @@ function shakeMagic8Ball(){
     if (question === null) {
         document.getElementById('response-text').innerText = 'Please ask a question'
         document.getElementById('response-text').classList = 'Display text-danger'
-        document.getElementById('response-image').src = '#BAD/BROKENIMAGE' //Fix this later//
+        document.getElementById('response-image').src = 'images/Graduated_Blue_Background.png' //Fix this later//
         return
     }
 
@@ -18,42 +18,42 @@ function shakeMagic8Ball(){
     switch (randomNumber){
         case 0:
             answer = "Yes"
-            image = "yes-image.jpg" //change this!!
+            image = "images/Graduated_Blue_Background.png" //change this!!
             color = "text-success"
             break;
         case 1:
             answer = "No"
-            image = "no-image.jpg" //change this!!
+            image = "images/Graduated_Blue_Background.png" //change this!!
             color = "text-danger"
             break;
         case 2:
             answer = "Ask again later"
-            image = "later-image.jpg" //change this!!
+            image = "images/Graduated_Blue_Background.png" //change this!!
             color = "text-secondary"
             break;
         case 3:
             answer = "Maybe"
-            image = "later-image.jpg" //change this!!
+            image = "images/Graduated_Blue_Background.png" //change this!!
             color = "text-warning"
             break;
         case 4:
             answer = "Do not count on it"
-            image = "later-image.jpg" //change this!!
+            image = "images/Graduated_Blue_Background.png" //change this!!
             color = "text-muted"
             break;
         case 5:
             answer = "My sources say it is likely"
-            image = "later-image.jpg" //change this!!
+            image = "images/Graduated_Blue_Background.png" //change this!!
             color = "text-muted"
             break;
         case 6:
             answer = 'Outlook not so good'
-            image = "later-image.jpg" //change this!!
+            image = "images/Graduated_Blue_Background.png" //change this!!
             color = "text-danger"
             break;
         case 7:
             answer = 'Signs point to yes'
-            image = "later-image.jpg" //change this!!
+            image = "images/Graduated_Blue_Background.png" //change this!!
             color = "text-success"
             break; 
         default:
