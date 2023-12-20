@@ -17,22 +17,22 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400&display=swap" rel="stylesheet">
   </head>
 
   <body class="">
-
+<div class="text-center">
+  <h1 class="mt-4 display-5">MAGIC <span class="display-4">8</span> BALL</h1>
+  <div class="lead mb-2" id="response-text">Ask a Question...</div>
+  <button onclick="shakeMagic8Ball()" class="btn btn-primary mt-2" id="questionButton">Shake the Magic 8-Ball</button>
+</div>
     <div id="magic-8-ball" class="container text-center my-auto">
-        <h1 class="mt-2">Magic 8-Ball</h1>
-        <div class="lead" id="response-text">Ask a Question...</div>
-        <img src="images/magic-ball.png" alt="" id="response-image" class="img-fluid mb-4">
-        <button onclick="shakeMagic8Ball()" class="btn btn-primary mt-2">Shake the Magic 8-Ball</button>
+        <img src="images/magic-ball.png" alt="" id="response-image" class="img-fluid mt-3 mb-4">
     </div>
         
- 
-
-    
-
-    <footer class="bg-light py-3 text-center mt-auto fixed-bottom">
+    <footer class="py-3 text-center mt-auto fixed-bottom" style="background-color: rgb(137, 184, 212);">
         <p>&copy; 2023 Magic 8-Ball App</p>
       <!-- place footer here -->
     </footer>

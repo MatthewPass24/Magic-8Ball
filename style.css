@@ -2,4 +2,31 @@ body {
     background-image: url('images/Graduated_Blue_Background.png');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
+}
+
+#questionButton {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    border-radius: 5px;
+    border: none;
+    color: #c4d4f0;
+    background-color: rgb(87,66,207);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+span {
+    font-size: 50px;
+    color: rgb(87, 66, 207);
+}
+#response-text {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+#response-image {
+    height: 400px;
+
 }
